@@ -1,0 +1,19 @@
+{
+  "name": "card-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "debug": "^3.1.0",
+    "express": "^4.16.3",
+    "flatfile": "^2.0.0",
+    "node-hid-stream": "0.0.3",
+    "underscore": "^1.9.0"
+  }
+}
