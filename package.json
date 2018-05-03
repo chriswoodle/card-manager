@@ -14,6 +14,7 @@
     "express": "^4.16.3",
     "flatfile": "^2.0.0",
     "node-hid-stream": "0.0.3",
+    "serialport": "^6.2.0",
     "underscore": "^1.9.0"
   }
 }
