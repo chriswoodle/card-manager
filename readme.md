@@ -22,3 +22,20 @@ Create settings.json
 ```
 sudo node index
 ```
+
+# Install service
+
+copy `cardManager.service` into `/etc/systemd/system/`
+
+Reload daemon files
+```
+sudo systemctl daemon-reload
+```
+Start service
+```
+sudo systemctl start cardManager
+```
+Log tail the running service
+```
+journalctl -u cardManager -f
+```

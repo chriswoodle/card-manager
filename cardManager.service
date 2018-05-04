@@ -1,0 +1,11 @@
+[Unit]
+Description=Card Manager
+
+[Service]
+WorkingDirectory=/home/pi/card-manager/
+ExecStart=/usr/local/bin/node /home/pi/card-manager/index.js
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
